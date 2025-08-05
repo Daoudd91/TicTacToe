@@ -8,7 +8,33 @@
   </head>
   <body>
     <h1>Tic - Tac - Toe Game</h1>
-    <div class="results-container"></div>
+    <div class="results-container">
+      <div>
+        <p>X's Score</p>
+        <p id="xScore">0</p>
+      </div>
+      <div>
+        <p>O's Score</p>
+        <p id="oScore">0</p>
+      </div>
+    </div>
+    <div class="game-grid">
+      <div class="cell empty" id="0"></div>
+      <div class="cell empty" id="1"></div>
+      <div class="cell empty" id="2"></div>
+      <div class="cell empty" id="3"></div>
+      <div class="cell empty" id="4"></div>
+      <div class="cell empty" id="5"></div>
+      <div class="cell empty" id="6"></div>
+      <div class="cell empty" id="7"></div>
+      <div class="cell empty" id="8"></div>
+    </div>
+    <button id="reset">Reset</button>
+    <div class="modal">
+        <div class="modal-content">
+        <p class="message"></p>
+        <button id="modalHide">Ok</button>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
